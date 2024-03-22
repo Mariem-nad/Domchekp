@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="Domchekp.css" />
+    <script src="Domchekp.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+</head>
+<body>
+    <div id="container">
+        <div class="box">
+            <h2>Bijoux</h2>
+            <img src="image2.webp" alt="Bijoux" width="155px" height="175px">
+            <button class="quantity-btn plus" onclick="incrementQuantity(this)">+</button>
+            <input type="text" value="1" disabled />
+            <button class="quantity-btn minus" onclick="decrementQuantity(this)">-</button>
+            <button onclick="removeItem(this)">Delete</button>
+            <span class="price">$190</span>
+            <span class="heart-button" onclick="toggleLike(this)">❤️</span>
+        </div>
+        <div class="box">
+            <h2>Robe soirée</h2>
+            <img src="image.jpg" alt="Robe" width="155px" height="175px">
+            <button class="quantity-btn plus" onclick="incrementQuantity(this)">+</button>
+            <input type="text" value="1" disabled />
+            <button class="quantity-btn minus" onclick="decrementQuantity(this)">-</button>
+            <button onclick="removeItem(this)">Delete</button>
+            <span class="price">$800</span>
+            <span class="heart-button" onclick="toggleLike(this)">❤️</span>
+        </div>
+        <div class="box">
+            <h2>Chaussures</h2>
+            <img src="image3.JBG.webp" alt="Chaussures" width="155px" height="175px">
+            <button class="quantity-btn plus" onclick="incrementQuantity(this)">+</button>
+            <input type="text" value="1" disabled />
+            <button class="quantity-btn minus" onclick="decrementQuantity(this)">-</button>
+            <button onclick="removeItem(this)">Delete</button>
+            <span class="price">$100</span>
+            <span class="heart-button" onclick="toggleLike(this)">❤️</span>
+        </div>
